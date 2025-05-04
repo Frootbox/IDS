@@ -1,0 +1,24 @@
+{
+    "name": "frootbox/ids",
+    "description": "Frootbox Intrusion Detection System",
+    "support": {
+
+        "email": "jan.habbo.bruening@gmail.com"
+    },
+    "authors": [
+        {
+            "name": "Jan Habbo Brüning",
+            "email": "jan.habbo.bruening@gmail.com"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=8.3"
+    },
+    "autoload": {
+    	"psr-4": {
+            "Frootbox\\Ids\\": "src/",
+            "Frootbox\\": "src/"
+        }
+    }
+}
