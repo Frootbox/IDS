@@ -41,6 +41,7 @@ class Ids
         'hotpot-app-frontend/.env',
         'html/.env',
         'httpdocs/.env',
+        'http/.env',
         'sftp-config.json',
     ];
 
