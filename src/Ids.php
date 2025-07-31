@@ -8,7 +8,17 @@ namespace Frootbox;
 class Ids
 {
     protected array $suspiciousUrls = [
+        'getcmd',
+        'xmlrpc.php',
+        'wp-admin/install.php',
+        'wp-login.php',
+        'wp-admin',
+        'aspera/faspex',
+        '.env',
+        'xmlrpc.php',
+        'cms/wp-includes/wlwmanifest.xml',
         '.vscode/sftp.json',
+        'db_backup.sql',
         'Hash/.env',
         'Helmetjs/.env',
         'HUNIV_migration/.env',
