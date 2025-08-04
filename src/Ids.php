@@ -8,6 +8,7 @@ namespace Frootbox;
 class Ids
 {
     protected array $suspiciousUrls = [
+        'vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php',
         'getcmd',
         'xmlrpc.php',
         'wp-admin/install.php',
