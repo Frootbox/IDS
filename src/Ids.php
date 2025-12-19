@@ -8,6 +8,12 @@ namespace Frootbox;
 class Ids
 {
     protected array $suspiciousUrls = [
+        'core/app/.env',
+        'admin/server_info.php',
+        'admin/.env',
+        'backend/.env',
+        'admin/function.php',
+        'ALFA_DATA/alfacgiapi',
         'vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php',
         'getcmd',
         'xmlrpc.php',
